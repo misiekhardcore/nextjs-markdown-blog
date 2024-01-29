@@ -1,7 +1,21 @@
 {
   "name": "nextjs-markdown-blog",
-  "version": "0.1.0",
-  "private": true,
+  "description": "This is a blog/portfolio website built using Nextjs 13 in which all the content is stored as markdown files.",
+  "version": "0.1.0-SNAPSHOT",
+  "private": false,
+  "author": {
+    "name": "Michael Konopski",
+    "email": "misiekhardcore@gmail.com",
+    "url": "https://github.com/misiekhardcore"
+  },
+  "license": "MIT",
+  "keywords": [
+    "blog",
+    "nextjs",
+    "markdown",
+    "typescript",
+    "react"
+  ],
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,16 +23,17 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "next": "14.1.0",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.1.0"
+    "sass": "^1.70.0"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "eslint": "^8",
-    "eslint-config-next": "14.1.0"
+    "eslint-config-next": "14.1.0",
+    "typescript": "^5"
   }
 }
