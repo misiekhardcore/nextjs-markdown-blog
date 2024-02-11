@@ -49,7 +49,7 @@ export class FileService implements FileServiceInterface {
   }
 
   getFileStats(path: string): Stats {
-    if (fs.existsSync(path)) {
+    if (!fs.existsSync(path)) {
       throw new Error(`File on path "${path}" not found`);
     }
     return fs.statSync(path);
