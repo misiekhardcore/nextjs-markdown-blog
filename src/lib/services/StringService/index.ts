@@ -1,1 +1,1 @@
-export { StringService } from './StringServise';
+export { StringService } from './StringService';
