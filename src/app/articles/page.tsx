@@ -1,3 +1,4 @@
+import { Article } from '@/components';
 import { ARTCILES_ROUTE, ARTICLES_DIRECTORY } from '@/constants';
 import { FileService, MdArticleService } from '@/lib/services';
 import Link from 'next/link';
@@ -10,15 +11,9 @@ export default async function ArticlesPage() {
 
   return (
     <section>
-      {articles.map(({ date, description, slug, title, topic }) => (
-        <Link href={`${ARTCILES_ROUTE}/${slug}`} key={slug}>
-          <article>
-            <h2>
-              {topic} - {title}
-            </h2>
-            <p>{description}</p>
-            <time dateTime={date.toISOString()}>{date.toDateString()}</time>
-          </article>
+      {articles.map((article) => (
+        <Link key={article.slug} href={`${ARTCILES_ROUTE}/${article.slug}`}>
+          <Article article={article} />
         </Link>
       ))}
     </section>

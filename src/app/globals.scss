@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&family=Roboto&family=Ubuntu+Mono&display=swap');
+
+:root {
+  --black-100: #1d1f23;
+  --black-90: #21252b;
+  --black-80: #333333;
+  --black-70: #4d4d4d;
+  --black-60: #666666;
+  --black-50: #808080;
+  --black-40: #9aa2b1;
+  --black-30: #abb2bf;
+  --black-20: #cccccc;
+  --black-10: #e6e6e6;
+  --black-0: #ffffff;
+
+  --background-light: #ffffff;
+  --background-dark: #f3f3f3;
+
+  --purple: #b06bc4;
+  --red: #c76068;
+  --green: #79a858;
+  --blue: #579dd6;
+  --yellow: #ccab6e;
+  --gray: #d3d3d3;
+
+  --typography-h1: 2.5em 'Roboto';
+  --typography-h2: 2.25em 'Roboto';
+  --typography-h3: 2em 'Roboto';
+  --typography-h4: 1.75em 'Roboto';
+  --typography-h5: 1.5em 'Roboto';
+  --typography-h6: 1.25em 'Roboto';
+
+  --typography-p: 1em 'Ubuntu', sans-serif;
+
+  --typography-code: 1em 'PT Mono', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  min-width: 0;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--black-100);
+  line-height: 1.5;
+  margin-top: 1em;
+  margin-bottom: 0.75em;
+}
+
+h1 {
+  font: var(--typography-h1);
+}
+
+h2 {
+  font: var(--typography-h2);
+}
+
+h3 {
+  font: var(--typography-h3);
+}
+
+h4 {
+  font: var(--typography-h4);
+}
+
+h5 {
+  font: var(--typography-h5);
+}
+
+h6 {
+  font: var(--typography-h6);
+}
+
+p,
+ul,
+ol {
+  color: var(--black-80);
+  line-height: 1.5;
+}
