@@ -11,7 +11,7 @@ type ArticleProps = {
 export function Article({ article }: ArticleProps) {
   const { date, description, content, title, topic } = article;
   return (
-    <article>
+    <article className="Article">
       <Headline title={title} description={description} topic={topic} />
       <DateTime date={date} />
       <Markdown markdown={content} />

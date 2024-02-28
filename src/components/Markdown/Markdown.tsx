@@ -10,7 +10,7 @@ type MarkdownProps = {
 
 export function Markdown({ markdown }: MarkdownProps) {
   return (
-    <ReactMarkdown className="MarkDown" remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeSlug]}>
+    <ReactMarkdown className="Markdown" remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeSlug]}>
       {markdown}
     </ReactMarkdown>
   );
