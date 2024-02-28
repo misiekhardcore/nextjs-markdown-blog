@@ -1,0 +1,20 @@
+.Article {
+  padding: 1rem;
+
+  .topic {
+    font-size: 1.2rem;
+    color: var(--black-60);
+  }
+
+  .description {
+    font-size: 2rem;
+    color: var(--purple);
+    text-align: right;
+  }
+
+  .DateTime {
+    margin-top: 1rem;
+    font-size: 0.875rem;
+    color: var(--black-60);
+  }
+}

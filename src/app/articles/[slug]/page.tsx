@@ -1,5 +1,8 @@
+import { Article } from '@/components';
 import { ARTICLES_DIRECTORY } from '@/constants';
 import { FileService, MdArticleService } from '@/lib/services';
+
+import './ArticlePage.scss';
 
 const fileServcie = new FileService();
 const articleService = new MdArticleService(ARTICLES_DIRECTORY, fileServcie);
@@ -14,18 +17,11 @@ export const dynamicParams = false;
 type AtricleProps = { params: { slug: string } };
 
 export default async function ArticlePage({ params: { slug } }: AtricleProps) {
-  const { content, date, description, title, topic } = await articleService.getOneBySlug(slug);
+  const article = await articleService.getOneBySlug(slug);
 
   return (
-    <section>
-      <article>
-        <h2>
-          {topic} - {title}
-        </h2>
-        <p>{description}</p>
-        <time dateTime={date.toISOString()}>{date.toDateString()}</time>
-        <p>{content}</p>
-      </article>
+    <section className="ArticlePage">
+      <Article article={article} />
     </section>
   );
 }
