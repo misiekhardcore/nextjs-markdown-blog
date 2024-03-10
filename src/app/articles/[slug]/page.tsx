@@ -20,8 +20,10 @@ export default async function ArticlePage({ params: { slug } }: AtricleProps) {
   const article = await articleService.getOneBySlug(slug);
 
   return (
-    <section className="ArticlePage">
-      <Article article={article} />
-    </section>
+    <div className="ArticlePage grid">
+      <section className="article grid">
+        <Article article={article} />
+      </section>
+    </div>
   );
 }
