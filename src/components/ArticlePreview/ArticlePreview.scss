@@ -1,0 +1,20 @@
+.ArticlePreview {
+  outline: 1px solid var(--black-40);
+
+  article {
+    padding: 1rem;
+
+    > .Markdown {
+      font-size: 0.75rem;
+      padding: 1rem;
+      background-color: var(--black-shade-10);
+    }
+  }
+
+  &:hover,
+  &:focus {
+    background-color: var(--background-dark);
+    outline-width: 2px;
+    outline-offset: -1px;
+  }
+}

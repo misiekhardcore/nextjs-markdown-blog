@@ -6,15 +6,16 @@ import './Article.scss';
 
 type ArticleProps = {
   article: Article;
+  isPreview?: boolean;
 };
 
-export function Article({ article }: ArticleProps) {
+export function Article({ article, isPreview }: ArticleProps) {
   const { date, description, content, title, topic } = article;
   return (
     <article className="Article">
       <Headline title={title} description={description} topic={topic} />
       <DateTime date={date} />
-      <Markdown markdown={content} />
+      <Markdown markdown={content} isPreview={isPreview} />
     </article>
   );
 }
