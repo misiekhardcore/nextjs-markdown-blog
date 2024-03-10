@@ -1,5 +1,7 @@
 import Link from 'next/link';
 
+import './Footer.scss';
+
 type FooterLink = {
   name: string;
   href: string;

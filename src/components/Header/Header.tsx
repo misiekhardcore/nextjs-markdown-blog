@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-import { ARTCILES_ROUTE } from '@/constants';
+import { ARTICLES_ROUTE } from '@/constants';
 
 import './Header.scss';
 
@@ -11,13 +11,13 @@ type NavLink = {
 
 const navLinks: NavLink[] = [
   { href: '/', name: 'Home' },
-  { href: ARTCILES_ROUTE, name: 'Articles' },
+  { href: ARTICLES_ROUTE, name: 'Articles' },
 ];
 
 export function Header() {
   return (
     <header className="Header">
-      <Link href="/">
+      <Link href="/" className="logo">
         <h1>My Blog</h1>
       </Link>
       <nav className="links">
