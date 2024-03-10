@@ -1,6 +1,9 @@
 import type { Metadata } from 'next';
 
+import { Footer, Header } from '@/components';
+
 import './globals.scss';
+import './layout.scss';
 
 export const metadata: Metadata = {
   title: 'Next.js Markdown Blog',
@@ -16,7 +19,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <main>{children}</main>
+        <Header />
+        <main className="RootLayout grid">{children}</main>
+        <Footer />
       </body>
     </html>
   );
