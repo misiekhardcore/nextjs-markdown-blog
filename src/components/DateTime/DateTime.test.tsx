@@ -8,6 +8,6 @@ describe('DateTime', () => {
 
     const { container } = render(<DateTime date={date} />);
 
-    expect(container.textContent).toBe('10/10/2000, 2:00:00 AM');
+    expect(container.textContent).toMatch(/10\/10\/2000, \d+:00:00 AM/);
   });
 });

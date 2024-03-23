@@ -1,11 +1,11 @@
-import { Article } from '@/types';
+import { Article as TArticle } from '@/types';
 
 import { Headline, DateTime, Markdown } from '@/components';
 
 import './Article.scss';
 
 type ArticleProps = {
-  article: Article;
+  article: TArticle;
   isPreview?: boolean;
 };
 

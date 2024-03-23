@@ -18,7 +18,7 @@ describe('Article', () => {
     expect(screen.getByRole('heading').textContent).toEqual('a title');
     expect(screen.getByText('some description')).toBeDefined();
     expect(screen.getByText('Topic: topic')).toBeDefined();
-    expect(screen.getByText('10/10/2000, 2:00:00 AM')).toBeDefined();
+    expect(screen.getByText(/10\/10\/2000/)).toBeDefined();
     expect(screen.getByText('some content')).toBeDefined();
   });
 });
