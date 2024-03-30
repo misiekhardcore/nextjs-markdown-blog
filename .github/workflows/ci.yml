@@ -55,3 +55,25 @@ jobs:
       - name: Run tests
         working-directory: ${{ github.workspace}}
         run: yarn test
+
+  build:
+    name: Build
+    timeout-minutes: 30
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@main
+
+      - name: Set up node
+        uses: actions/setup-node@main
+        with:
+          node-version: 20
+          cache: yarn
+          cache-dependency-path: ${{ github.workspace}}/yarn.lock
+
+      - name: Install node dependencies
+        working-directory: ${{ github.workspace}}
+        run: yarn install
+
+      - name: Build
+        working-directory: ${{ github.workspace}}
+        run: yarn build
