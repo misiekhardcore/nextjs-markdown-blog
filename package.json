@@ -1,6 +1,6 @@
 {
   "name": "nextjs-markdown-blog",
-  "packageManager": "yarn@4.2.1",
+  "packageManager": "yarn@4.2.2",
   "description": "This is a blog/portfolio website built using Nextjs 13 in which all the content is stored as markdown files.",
   "version": "0.3.0-SNAPSHOT",
   "author": {
