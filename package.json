@@ -52,7 +52,7 @@
     "jest-environment-jsdom": "29.7.0",
     "lint-staged": "16.0.0",
     "prettier": "3.3.3",
-    "sass": "1.77.8",
+    "sass": "1.88.0",
     "ts-node": "10.9.2",
     "typescript": "5.5.4"
   }
