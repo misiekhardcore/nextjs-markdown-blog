@@ -14,9 +14,13 @@ export async function generateStaticParams() {
 
 export const dynamicParams = false;
 
-type AtricleProps = { params: { slug: string } };
+type AtricleProps = { params: Promise<{ slug: string }> };
 
-export default async function ArticlePage({ params: { slug } }: AtricleProps) {
+export default async function ArticlePage(props: AtricleProps) {
+  const params = await props.params;
+
+  const { slug } = params;
+
   const article = await articleService.getOneBySlug(slug);
 
   return (
