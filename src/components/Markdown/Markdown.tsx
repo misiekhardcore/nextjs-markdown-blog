@@ -1,15 +1,16 @@
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import rehypeSlug from 'rehype-slug';
+import type { Components } from 'react-markdown';
 
 import './Markdown.scss';
 import Link from 'next/link';
 import { ReactNode } from 'react';
 
-type MarkdownProps = {
+interface MarkdownProps {
   markdown: string;
   isPreview?: boolean;
-};
+}
 
 export function Markdown({ markdown, isPreview }: MarkdownProps) {
   return (
@@ -24,8 +25,8 @@ export function Markdown({ markdown, isPreview }: MarkdownProps) {
   );
 }
 
-function getComponents(isPreview?: boolean) {
-  const components: Record<string, unknown> = {};
+function getComponents(isPreview?: boolean): Partial<Components> {
+  const components: Partial<Components> = {};
 
   if (isPreview) {
     components.a = ({ children }: { children: ReactNode }) => {
