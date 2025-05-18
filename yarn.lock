@@ -1565,12 +1565,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:20.17.46":
-  version: 20.17.46
-  resolution: "@types/node@npm:20.17.46"
+"@types/node@npm:20.17.47":
+  version: 20.17.47
+  resolution: "@types/node@npm:20.17.47"
   dependencies:
     undici-types: "npm:~6.19.2"
-  checksum: 10c0/2b8cf1ea80af3c62247636fe44ec815e64978085c6f714792ad93d9cc826395b0bf7a969870f90274bf3a129b9d23994aa3a9c5e4cf00477d43f929330953662
+  checksum: 10c0/df336ed7897177214d1c0f2c7e2f94bbc19da28bffd150ad67dfdb373ca55167479a266c836f99450ab6b6a71799a53583b3f4f159c5424255e9f3851cc9d431
   languageName: node
   linkType: hard
 
@@ -7296,7 +7296,7 @@ __metadata:
     "@testing-library/react": "npm:15.0.7"
     "@types/eslint__eslintrc": "npm:^3.3.0"
     "@types/jest": "npm:29.5.14"
-    "@types/node": "npm:20.17.46"
+    "@types/node": "npm:20.17.47"
     "@types/react": "npm:19.1.4"
     "@types/react-dom": "npm:19.1.5"
     "@typescript-eslint/eslint-plugin": "npm:8.32.1"
@@ -7321,9 +7321,9 @@ __metadata:
     prettier: "npm:3.3.3"
     react: "npm:19.1.0"
     react-dom: "npm:19.1.0"
-    react-markdown: "npm:9.0.1"
+    react-markdown: "npm:9.0.3"
     rehype-slug: "npm:6.0.0"
-    remark-gfm: "npm:4.0.0"
+    remark-gfm: "npm:4.0.1"
     sass: "npm:1.77.8"
     ts-node: "npm:10.9.2"
     typescript: "npm:5.5.4"
@@ -7953,9 +7953,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-markdown@npm:9.0.1":
-  version: 9.0.1
-  resolution: "react-markdown@npm:9.0.1"
+"react-markdown@npm:9.0.3":
+  version: 9.0.3
+  resolution: "react-markdown@npm:9.0.3"
   dependencies:
     "@types/hast": "npm:^3.0.0"
     devlop: "npm:^1.0.0"
@@ -7970,7 +7970,7 @@ __metadata:
   peerDependencies:
     "@types/react": ">=18"
     react: ">=18"
-  checksum: 10c0/3a3895dbd56647bc864b8da46dd575e71a9e609eb1e43fea8e8e6209d86e208eddd5b07bf8d7b5306a194b405440760a8d134aebd5a4ce5dc7dee4299e84db96
+  checksum: 10c0/7f1aef171b49af9b84896917c033cbc0f45d0d2b4a5db5a339bf96977a143ae19f21cb7a69a6878b718d5578db021e96372fa33621b79bf57a87efb9b3c84166
   languageName: node
   linkType: hard
 
@@ -8062,9 +8062,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"remark-gfm@npm:4.0.0":
-  version: 4.0.0
-  resolution: "remark-gfm@npm:4.0.0"
+"remark-gfm@npm:4.0.1":
+  version: 4.0.1
+  resolution: "remark-gfm@npm:4.0.1"
   dependencies:
     "@types/mdast": "npm:^4.0.0"
     mdast-util-gfm: "npm:^3.0.0"
@@ -8072,7 +8072,7 @@ __metadata:
     remark-parse: "npm:^11.0.0"
     remark-stringify: "npm:^11.0.0"
     unified: "npm:^11.0.0"
-  checksum: 10c0/db0aa85ab718d475c2596e27c95be9255d3b0fc730a4eda9af076b919f7dd812f7be3ac020611a8dbe5253fd29671d7b12750b56e529fdc32dfebad6dbf77403
+  checksum: 10c0/427ecc6af3e76222662061a5f670a3e4e33ec5fffe2cabf04034da6a3f9a1bda1fc023e838a636385ba314e66e2bebbf017ca61ebea357eb0f5200fe0625a4b7
   languageName: node
   linkType: hard
 
