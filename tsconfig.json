@@ -23,6 +23,13 @@
     "types": ["@eslint/eslintrc"],
     "target": "ES2017"
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/__mocks__/*.js"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "src/__mocks__/*.js",
+    "eslint.config.mjs"
+  ],
   "exclude": ["node_modules"]
 }

@@ -6,8 +6,6 @@ import { defineConfig, globalIgnores } from 'eslint/config';
 import tsParser from '@typescript-eslint/parser';
 import testingLibrary from 'eslint-plugin-testing-library';
 import prettier from 'eslint-plugin-prettier';
-import typescriptEslint from '@typescript-eslint/eslint-plugin';
-import type { Linter, ESLint } from 'eslint';
 import globals from 'globals';
 import eslint from '@eslint/js';
 import tseslint from '@typescript-eslint/eslint-plugin';
@@ -40,7 +38,7 @@ export default defineConfig([
     },
     plugins: {
       prettier,
-      '@typescript-eslint': typescriptEslint as unknown as ESLint.Plugin,
+      '@typescript-eslint': tseslint,
       'testing-library': testingLibrary,
     },
 
@@ -64,9 +62,10 @@ export default defineConfig([
     '**/jest.setup.js',
     '**/lint-staged.config.js',
     '**/next.config.js',
+    '**/prettier.config.js',
     '.next',
     '.yarn',
     '.swc',
     'node_modules',
   ]),
-] satisfies Linter.Config[]);
+]);
