@@ -30,7 +30,7 @@
   },
   "dependencies": {
     "gray-matter": "4.0.3",
-    "next": "15.5.2",
+    "next": "15.5.3",
     "react": "19.1.1",
     "react-dom": "19.1.1",
     "react-markdown": "10.1.0",
@@ -51,7 +51,7 @@
     "@typescript-eslint/eslint-plugin": "8.42.0",
     "@typescript-eslint/parser": "8.42.0",
     "eslint": "9.35.0",
-    "eslint-config-next": "15.5.2",
+    "eslint-config-next": "15.5.3",
     "eslint-config-prettier": "10.1.8",
     "eslint-plugin-css": "0.11.0",
     "eslint-plugin-json": "4.0.1",
