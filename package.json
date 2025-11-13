@@ -17,7 +17,7 @@
     "react"
   ],
   "scripts": {
-    "dev": "next dev --turbopack",
+    "dev": "next dev",
     "build": "yarn lint && next build",
     "start": "next start",
     "next-lint": "next lint",
