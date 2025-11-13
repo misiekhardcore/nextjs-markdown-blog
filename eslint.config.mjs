@@ -2,9 +2,27 @@ import { defineConfig, globalIgnores } from 'eslint/config';
 import nextVitals from 'eslint-config-next/core-web-vitals';
 import testingLibrary from 'eslint-plugin-testing-library';
 import prettier from 'eslint-plugin-prettier';
+import globals from 'globals';
 
-// Find the config object that has TypeScript plugin and add our custom rules
+// Extend the Next.js config with our custom plugins and rules
 const customConfig = nextVitals.map((config) => {
+  // Add globals to languageOptions if it exists
+  if (config.languageOptions) {
+    return {
+      ...config,
+      languageOptions: {
+        ...config.languageOptions,
+        globals: {
+          ...config.languageOptions.globals,
+          ...globals.browser,
+          ...globals.node,
+          ...globals.jest,
+        },
+      },
+    };
+  }
+  
+  // Add plugins and rules to the config that has TypeScript plugin
   if (config.plugins && config.plugins['@typescript-eslint']) {
     return {
       ...config,
@@ -27,6 +45,7 @@ const customConfig = nextVitals.map((config) => {
       },
     };
   }
+  
   return config;
 });
 
