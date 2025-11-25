@@ -2183,12 +2183,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:19.2.5":
-  version: 19.2.5
-  resolution: "@types/react@npm:19.2.5"
+"@types/react@npm:19.2.6":
+  version: 19.2.6
+  resolution: "@types/react@npm:19.2.6"
   dependencies:
-    csstype: "npm:^3.0.2"
-  checksum: 10c0/1f9a92c73a5ea5b167f59cd0b5b9460fde65bd22b63b6d23bfaace8ad38537df127c97657418b4912a7a03a66e6451e82a41b84718d638ec1c8e4f0515d94793
+    csstype: "npm:^3.2.2"
+  checksum: 10c0/23b1100f88662ce9f9e4fcca3a2b4ef9fff1ecde24ede2b2dcbd07731e48d6946fd7fd156cd133f5b25321694b0569cd9b8dd30b22c4e076d1cf4c8cdd9a75cb
   languageName: node
   linkType: hard
 
@@ -3595,10 +3595,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"commander@npm:^14.0.1":
-  version: 14.0.1
-  resolution: "commander@npm:14.0.1"
-  checksum: 10c0/64439c0651ddd01c1d0f48c8f08e97c18a0a1fa693879451f1203ad01132af2c2aa85da24cf0d8e098ab9e6dc385a756be670d2999a3c628ec745c3ec124587b
+"commander@npm:^14.0.2":
+  version: 14.0.2
+  resolution: "commander@npm:14.0.2"
+  checksum: 10c0/245abd1349dbad5414cb6517b7b5c584895c02c4f7836ff5395f301192b8566f9796c82d7bd6c92d07eba8775fe4df86602fca5d86d8d10bcc2aded1e21c2aeb
   languageName: node
   linkType: hard
 
@@ -3662,10 +3662,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"csstype@npm:^3.0.2":
-  version: 3.1.3
-  resolution: "csstype@npm:3.1.3"
-  checksum: 10c0/80c089d6f7e0c5b2bd83cf0539ab41474198579584fa10d86d0cafe0642202343cbc119e076a0b1aece191989477081415d66c9fefbf3c957fc2fc4b7009f248
+"csstype@npm:^3.2.2":
+  version: 3.2.3
+  resolution: "csstype@npm:3.2.3"
+  checksum: 10c0/cd29c51e70fa822f1cecd8641a1445bed7063697469d35633b516e60fe8c1bde04b08f6c5b6022136bb669b64c63d4173af54864510fbb4ee23281801841a3ce
   languageName: node
   linkType: hard
 
@@ -4570,15 +4570,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-testing-library@npm:7.13.4":
-  version: 7.13.4
-  resolution: "eslint-plugin-testing-library@npm:7.13.4"
+"eslint-plugin-testing-library@npm:7.13.5":
+  version: 7.13.5
+  resolution: "eslint-plugin-testing-library@npm:7.13.5"
   dependencies:
     "@typescript-eslint/scope-manager": "npm:^8.15.0"
     "@typescript-eslint/utils": "npm:^8.15.0"
   peerDependencies:
     eslint: ^8.57.0 || ^9.0.0
-  checksum: 10c0/b1c1bc1937e0389fe931f359c64fbfc032bdb3fc745bd68e835c7ec8295281a0faeb2c471991aa00d8f6de258d5d42d1a8bdcc6021b0a1a67bac80d759f0639f
+  checksum: 10c0/c4615606b35fbbb0482f93c0ece9cc1b5228504698f7d3c9cb3c1fca1120701274121a2cb9e95445a39a132377c286267cdcaab4d2118cbfda071990878dec3f
   languageName: node
   linkType: hard
 
@@ -6986,11 +6986,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lint-staged@npm:16.2.6":
-  version: 16.2.6
-  resolution: "lint-staged@npm:16.2.6"
+"lint-staged@npm:16.2.7":
+  version: 16.2.7
+  resolution: "lint-staged@npm:16.2.7"
   dependencies:
-    commander: "npm:^14.0.1"
+    commander: "npm:^14.0.2"
     listr2: "npm:^9.0.5"
     micromatch: "npm:^4.0.8"
     nano-spawn: "npm:^2.0.0"
@@ -6999,7 +6999,7 @@ __metadata:
     yaml: "npm:^2.8.1"
   bin:
     lint-staged: bin/lint-staged.js
-  checksum: 10c0/6bae38082a0fcb3f699b144d1a4b85394f259f17a1f8a58b22122b9f1c6bb5e8340d6ee4bff12e52dbc4267377d6dde9e5c206157f381f1924a2640717f769c1
+  checksum: 10c0/9a677c21a8112d823ae5bc565ba2c9e7b803786f2a021c46827a55fe44ed59def96edb24fc99c06a2545cdbbf366022ad82addcb3bf60c712f3b98ef92069717
   languageName: node
   linkType: hard
 
@@ -8063,7 +8063,7 @@ __metadata:
     "@types/eslint__eslintrc": "npm:3.3.0"
     "@types/jest": "npm:30.0.0"
     "@types/node": "npm:24.10.1"
-    "@types/react": "npm:19.2.5"
+    "@types/react": "npm:19.2.6"
     "@types/react-dom": "npm:19.2.3"
     "@typescript-eslint/eslint-plugin": "npm:8.46.4"
     "@typescript-eslint/parser": "npm:8.46.4"
@@ -8075,13 +8075,13 @@ __metadata:
     eslint-plugin-markdown: "npm:5.1.0"
     eslint-plugin-prettier: "npm:5.5.4"
     eslint-plugin-tailwindcss: "npm:3.18.2"
-    eslint-plugin-testing-library: "npm:7.13.4"
+    eslint-plugin-testing-library: "npm:7.13.5"
     gray-matter: "npm:4.0.3"
     husky: "npm:9.1.7"
     jest: "npm:30.2.0"
     jest-environment-jsdom: "npm:30.2.0"
     jiti: "npm:2.6.1"
-    lint-staged: "npm:16.2.6"
+    lint-staged: "npm:16.2.7"
     next: "npm:15.5.6"
     prettier: "npm:3.6.2"
     react: "npm:19.2.0"
@@ -8089,7 +8089,7 @@ __metadata:
     react-markdown: "npm:10.1.0"
     rehype-slug: "npm:6.0.0"
     remark-gfm: "npm:4.0.1"
-    sass: "npm:1.94.0"
+    sass: "npm:1.94.2"
     ts-node: "npm:10.9.2"
     typescript: "npm:5.9.3"
   languageName: unknown
@@ -9095,9 +9095,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sass@npm:1.94.0":
-  version: 1.94.0
-  resolution: "sass@npm:1.94.0"
+"sass@npm:1.94.2":
+  version: 1.94.2
+  resolution: "sass@npm:1.94.2"
   dependencies:
     "@parcel/watcher": "npm:^2.4.1"
     chokidar: "npm:^4.0.0"
@@ -9108,7 +9108,7 @@ __metadata:
       optional: true
   bin:
     sass: sass.js
-  checksum: 10c0/e32968180d4a98b4a6468920ce77ca0428c651dbdfe139572138dc0264d8329a93d652299b1d6ffce20db3d8a4981e497a4e5c3a5e0163d47db41b1e1d913123
+  checksum: 10c0/49a656dfab58299165ef94e71483a333972daee68c49fa542858d4912accdfb1707338226a165b1a2dfcdb2509fcda5a5b4f3780d14e49b6d38d93c8043475d3
   languageName: node
   linkType: hard
 
