@@ -4486,9 +4486,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-css@npm:0.11.1":
-  version: 0.11.1
-  resolution: "eslint-plugin-css@npm:0.11.1"
+"eslint-plugin-css@npm:0.12.0":
+  version: 0.12.0
+  resolution: "eslint-plugin-css@npm:0.12.0"
   dependencies:
     "@eslint-community/eslint-utils": "npm:^4.3.0"
     colord: "npm:^2.9.1"
@@ -4497,7 +4497,7 @@ __metadata:
     postcss-value-parser: "npm:^4.1.0"
   peerDependencies:
     eslint: ">=7.0.0"
-  checksum: 10c0/8b498e4474204765f566b9e8bb53de1f87f6d45d8dd78c63f0700689c3f3a03030fb4ad26256d9ee86377e2b0742cd45b362ad558d65a8bdf109270e4d25ecd3
+  checksum: 10c0/cce4eba95ba9cf7c92bb3ae9f1a5e4cf1458f54009bd76a5875a297dee923f2166b7de4bdbcb2ef198b116406535f405766a3c04b5dc4f506d5e89ae82b6bc8c
   languageName: node
   linkType: hard
 
@@ -8177,7 +8177,7 @@ __metadata:
     eslint: "npm:9.39.2"
     eslint-config-next: "npm:15.5.12"
     eslint-config-prettier: "npm:10.1.8"
-    eslint-plugin-css: "npm:0.11.1"
+    eslint-plugin-css: "npm:0.12.0"
     eslint-plugin-json: "npm:4.0.1"
     eslint-plugin-markdown: "npm:5.1.0"
     eslint-plugin-prettier: "npm:5.5.5"
